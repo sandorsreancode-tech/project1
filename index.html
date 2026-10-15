@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO do my list</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>My To-Do List 📝</h3>
+
+      <form class="input-group" id="taskForm">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Enter a new task..."
+          autocomplete="off"
+        />
+        <button type="submit" class="add-btn">Add Task</button>
+      </form>
+
+      <ul id="taskList"></ul>
+
+      <hr />
+
+      <div class="stats">
+        <span id="taskCount">Tasks: 0</span>
+        <span id="completedCount">Completed: 0</span>
+      </div>
+
+      <button id="clearBtn" class="clear-btn">Clear All Tasks</button>
+
+      <div class="footer">
+        សូមអរគុណដែលបានប្រើប្រាស់ ChatGPT និងកម្មវិធី To-Do List នេះ។
+      </div>
+    </div>
+  </body>
+
+  <script src="./main.js"></script>
+</html>
